@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+<head>
+	<title>GrubDecide</title>
+	
+	<link href="jquery-ui-1.12.0/jquery-ui.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.css">
+	
+</head>
+<body>
+	<div id="banner">
+		<h1>GrubDecide</h1>
+	</div>
+	<div id="sectionWrap">
+		<div id="mainContent">
+			<p>This is a website that allows you to select from a list of dropdown menus depending on certain parameters regarding breakfast, lunch, and dinner decisions. It'll give you restaurant options based on these parameters if you are indecisive regarding what you want to eat for a meal.</p>
+			<div class="mood">
+ 
+				<form action="#" method="POST">
+				 
+				  <fieldset>
+				    <label for="mood">Select a mood:</label>
+				    <select name="mood" id="mood">
+				      <option>Happy</option>
+				      <option>Sad</option>
+				      <option>Angry</option>
+				      <option selected="selected">select</option>
+				    </select>
+			</div>
+			<div class="cuisine">
+ 
+				<form action="#">
+				 
+				  <fieldset>
+				    <label for="cuisine">Select a cuisine:</label>
+				    <select name="cuisine" id="cuisine">
+				      <option>American</option>
+				      <option>British</option>
+				      <option>Caribbean</option>
+				      <option>Chinese</option>
+				      <option>French</option>
+				      <option>Greek</option>
+				      <option>Indian</option>
+				      <option>Thai</option>
+				      <option>Vietnamese</option>
+				      <option>Spanish</option>
+				      <option>Mediterranean</option>
+				      <option>Japanese</option>
+				      <option selected="selected">select</option>
+				    </select>
+			</div>
+			<div class="dietary">
+ 
+				<form action="#">
+				 
+				  <fieldset>
+				    <label for="dietary">Select a dietary preference:</label>
+				    <select name="dietary" id="dietary">
+				      <option>Vegan</option>
+				      <option>Gluten Free</option>
+				      <option>Kosher</option>
+				      <option>Halal</option>
+				      <option>No preference</option>
+				      <option selected="selected">select</option>
+				    </select>
+			</div>
+			<div class="price">
+ 
+				<form action="#">
+				 
+				  <fieldset>
+				    <label for="price">Select a price:</label>
+				    <select name="price" id="price">
+				      <option>$</option>
+				      <option>$$</option>
+				      <option>$$$</option>
+				      <option>$$$$</option>
+				      <option selected="selected">select</option>
+				    </select>
+			</div>
+			<div class="foodType">
+ 
+				<form action="#">
+				 
+				  <fieldset>
+				    <label for="foodType">Select a food type:</label>
+				    <select name="foodType" id="foodType">
+				      <option>Sandwich</option>
+				      <option>Pasta</option>
+				      <option>Salad</option>
+				      <option selected="selected">select</option>
+				    </select>
+				    <div id="wrapper">
+					    <div id="foodDecision">
+							<h1>GrubDecide's Decision:</h1>
+						</div>
+					</div>
+			</div>
+	</div>
+
+	<script src="jquery-ui-1.12.0/external/jquery/jquery.js"></script>
+	<script src="jquery-ui-1.12.0/jquery-ui.min.js"></script>
+
+	<script type="text/javascript" src="js/main.js">
+
+	</script>
+</body>
+</html>
