@@ -23,13 +23,16 @@
 				    <select name="mood" id="mood">
 				      <option>Happy</option>
 				      <option>Sad</option>
-				      <option>Angry</option>
+				      <option>No preference</option>
 				      <option selected="selected">select</option>
 				    </select>
+				      
+				</form>
+
 			</div>
 			<div class="cuisine">
  
-				<form action="#">
+				<form action="#" method="POST">
 				 
 				  <fieldset>
 				    <label for="cuisine">Select a cuisine:</label>
@@ -48,6 +51,7 @@
 				      <option>Japanese</option>
 				      <option selected="selected">select</option>
 				    </select>
+				    
 			</div>
 			<div class="dietary">
  
@@ -63,6 +67,7 @@
 				      <option>No preference</option>
 				      <option selected="selected">select</option>
 				    </select>
+				   
 			</div>
 			<div class="price">
  
@@ -77,6 +82,7 @@
 				      <option>$$$$</option>
 				      <option selected="selected">select</option>
 				    </select>
+				   
 			</div>
 			<div class="foodType">
  
@@ -88,17 +94,25 @@
 				      <option>Sandwich</option>
 				      <option>Pasta</option>
 				      <option>Salad</option>
+				      <option>Steak</option>
+				      <option>No preference</option>
 				      <option selected="selected">select</option>
 				    </select>
+
+				    <input id="submit" type="submit" value="Submit">
+				   
+
 				    <div id="wrapper">
 					    <div id="foodDecision">
 							<h1>GrubDecide's Decision:</h1>
+							 <button id="reload">Go Again</button>
 						</div>
 					</div>
 			</div>
 	</div>
 
 	<script src="jquery-ui-1.12.0/external/jquery/jquery.js"></script>
+	<script src="jquery.cookie.js"></script>
 	<script src="jquery-ui-1.12.0/jquery-ui.min.js"></script>
 
 	<script type="text/javascript" src="js/main.js">

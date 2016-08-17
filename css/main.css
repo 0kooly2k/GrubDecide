@@ -130,3 +130,15 @@ text-align: center;
 height: 250px;
 margin-top: 100px;
 }
+
+#submit{
+	position: relative;
+	left:250px;
+	top:85px;
+
+}
+
+#reload{
+	position: relative;
+	top: 100px;
+}
