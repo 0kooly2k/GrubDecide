@@ -11,8 +11,8 @@ $(document).ready(function(){
 
 
   //declares array of restaurants
-  var FoodPlaces= ["Delilahs", "Peter Lugers", "Champs Diner", "Green Symphony", "V Spot", "Dirt Candy",  "Kajitsu", "Strictly Vegetarian Restaurant", " Red Bamboo", "Vegetarian Dim Sum House", "Outpost Café",  "Le Village", "Cafe Rakka", "Zestt", "Ikraveit Foods", "Bombay Sandwich", "Andaz Indian Restaurant","Terri",
-   "Organique", "Pho Sure", "Love Mamak", "Boulevard Restaurant", "Puerto Viejo", "Tablao", "Bite", "Cafe Tarantin", "CAFÉ MEDI"];
+  var FoodPlaces= ["Delilahs", "Peter Lugers", "Champs Diner", "Green Symphony", "V Spot", "Dirt Candy",  "Kajitsu", "Strictly Vegetarian Restaurant", " Red Bamboo", "Vegetarian Dim Sum House", "Outpost Cafe",  "Le Village", "Cafe Rakka", "Zestt", "Ikraveit Foods", "Bombay Sandwich", "Andaz Indian Restaurant","Terri",
+   "Organique", "Pho Sure", "Love Mamak", "Boulevard Restaurant", "Puerto Viejo", "Tablao", "Bite", "Cafe Tarantin", "Cafe Medi", "Hana Food", "The Graffiti Room", "Van Leeuwen"];
  	
   //adds an if else function to add food place decision to div that gives user the program's decision.
  	
@@ -43,70 +43,73 @@ $(document).ready(function(){
     var foodType = $("#foodType").val();
 
     if(mood == "Sad" && cuisine == "American" && dietary == "No preference" && price == "$" && foodType =="Sandwich"){
-        $('#foodDecision').append(FoodPlaces[0]);
+        $('#foodDecision').html('<h1>' + "GrubDecide's Decision:" + '</h1>' + FoodPlaces[0]);
       }else if(mood == "Happy" && cuisine == "American" && dietary == "No preference" && price == "$$$$" && foodType =="Steak"){
-        $('#foodDecision').append(FoodPlaces[1]);
+        $('#foodDecision').html('<h1>' + "GrubDecide's Decision:" + '</h1>' + FoodPlaces[1]);
       }else if(mood == "No preference" && cuisine == "American" && dietary == "Vegan" && price == "$$" && foodType =="No preference"){
-         $('#foodDecision').append(FoodPlaces[2]);
+         $('#foodDecision').html('<h1>' + "GrubDecide's Decision:" + '</h1>' + FoodPlaces[2]);
       }else if(mood == "Happy" && cuisine == "American" && dietary == "Vegan" && price == "$" && foodType =="Sandwich"){
-        $('#foodDecision').append(FoodPlaces[3]);
+        $('#foodDecision').html('<h1>' + "GrubDecide's Decision:" + '</h1>' + FoodPlaces[3]);
       }else if(mood == "Happy" && cuisine == "American" && dietary == "Vegan" && price == "$$" && foodType =="Sandwich"){
-        $('#foodDecision').append(FoodPlaces[4]);
+        $('#foodDecision').html('<h1>' + "GrubDecide's Decision:" + '</h1>' + FoodPlaces[4] );
       }else if(mood == "Happy" && cuisine == "American" && dietary == "Vegan" && price == "$$$" && foodType =="Sandwich"){
-        $('#foodDecision').append(FoodPlaces[5]);
+        $('#foodDecision').html('<h1>' + "GrubDecide's Decision:" + '</h1>' + FoodPlaces[5]);
       }else if (mood == "Happy" && cuisine == "American" && dietary == "Vegan" && price == "$$$$" && foodType =="Sandwich"){
-         $('#foodDecision').append(FoodPlaces[6]);
+         $('#foodDecision').html('<h1>' + "GrubDecide's Decision:" + '</h1>' + FoodPlaces[6]);
       }else if (mood == "Happy" && cuisine == "Caribbean" && dietary == "Vegan" && price == "$" && foodType =="Sandwich"){
-         $('#foodDecision').append(FoodPlaces[7]);
+         $('#foodDecision').html('<h1>' + "GrubDecide's Decision:" + '</h1>' + FoodPlaces[7]);
       }else if (mood == "Happy" && cuisine == "Caribbean" && dietary == "Vegan" && price == "$$" && foodType =="Sandwich"){
-         $('#foodDecision').append(FoodPlaces[8]);
+         $('#foodDecision').html('<h1>' + "GrubDecide's Decision:" + '</h1>' + FoodPlaces[8]);
        }else if (mood == "Happy" && cuisine == "Vietnamese" && dietary == "Vegan" && price == "$" && foodType =="Sandwich"){
-         $('#foodDecision').append(FoodPlaces[9]);
+         $('#foodDecision').html('<h1>' + "GrubDecide's Decision:" + '</h1>' + FoodPlaces[9]);
        }else if (mood == "Happy" && cuisine == "Vietnamese" && dietary == "Vegan" && price == "$$" && foodType =="Sandwich"){
-         $('#foodDecision').append(FoodPlaces[20]);
+         $('#foodDecision').html('<h1>' + "GrubDecide's Decision:" + '</h1>' + FoodPlaces[20]);
        }else if (mood == "Happy" && cuisine == "Vietnamese" && dietary == "Vegan" && price == "$$$" && foodType =="Sandwich"){
-         $('#foodDecision').append(FoodPlaces[21]);
+         $('#foodDecision').html('<h1>' + "GrubDecide's Decision:" + '</h1>' + FoodPlaces[21]);
        }else if (mood == "Happy" && cuisine == "French" && dietary == "Vegan" && price == "$" && foodType =="Sandwich"){
-        $('#foodDecision').append(FoodPlaces[10]);
+        $('#foodDecision').html('<h1>' + "GrubDecide's Decision:" + '</h1>' + FoodPlaces[10]);
        }else if (mood == "Happy" && cuisine == "French" && dietary == "Vegan" && price == "$$" && foodType =="Sandwich"){
-        $('#foodDecision').append(FoodPlaces[11]);
+        $('#foodDecision').html('<h1>' + "GrubDecide's Decision:" + '</h1>' + FoodPlaces[11]);
       }else if (mood == "Happy" && cuisine == "Greek" && dietary == "Vegan" && price == "$" && foodType =="Sandwich"){
-        $('#foodDecision').append(FoodPlaces[12]);
+        $('#foodDecision').html('<h1>' + "GrubDecide's Decision:" + '</h1>' + FoodPlaces[12]);
       }else if (mood == "Happy" && cuisine == "Greek" && dietary == "Vegan" && price == "$$" && foodType =="Sandwich"){
-        $('#foodDecision').append(FoodPlaces[13]);
+        $('#foodDecision').html('<h1>' + "GrubDecide's Decision:" + '</h1>' + FoodPlaces[13]);
       }else if (mood == "Happy" && cuisine == "Greek" && dietary == "Vegan" && price == "$$$" && foodType =="Sandwich"){
-        $('#foodDecision').append(FoodPlaces[14]);
+        $('#foodDecision').html('<h1>' + "GrubDecide's Decision:" + '</h1>' + FoodPlaces[14]);
       }else if (mood == "Happy" && cuisine == "Indian" && dietary == "Vegan" && price == "$" && foodType =="Sandwich"){
-        $('#foodDecision').append(FoodPlaces[15]);
+        $('#foodDecision').html('<h1>' + "GrubDecide's Decision:" + '</h1>' + FoodPlaces[15]);
       }else if (mood == "Happy" && cuisine == "Indian" && dietary == "Vegan" && price == "$$" && foodType =="Sandwich"){
-        $('#foodDecision').append(FoodPlaces[16]);
+        $('#foodDecision').html('<h1>' + "GrubDecide's Decision:" + '</h1>' + FoodPlaces[16]);
       }else if (mood == "Happy" && cuisine == "Indian" && dietary == "Vegan" && price == "$$" && foodType =="Sandwich"){
-        $('#foodDecision').append(FoodPlaces[17]);
+        $('#foodDecision').html('<h1>' + "GrubDecide's Decision:" + '</h1>' + FoodPlaces[17]);
       }else if (mood == "Happy" && cuisine == "Thai" && dietary == "Vegan" && price == "$" && foodType =="Sandwich"){
-        $('#foodDecision').append(FoodPlaces[18]);
+        $('#foodDecision').html('<h1>' + "GrubDecide's Decision:" + '</h1>' + FoodPlaces[18]);
       }else if (mood == "Happy" && cuisine == "Thai" && dietary == "Vegan" && price == "$$" && foodType =="Sandwich"){
-        $('#foodDecision').append(FoodPlaces[19]);
+        $('#foodDecision').html('<h1>' + "GrubDecide's Decision:" + '</h1>' + FoodPlaces[19]);
       }else if (mood == "Happy" && cuisine == "Spanish" && dietary == "Vegan" && price == "$" && foodType =="Sandwich"){
-        $('#foodDecision').append(FoodPlaces[22]);
+        $('#foodDecision').html('<h1>' + "GrubDecide's Decision:" + '</h1>' + FoodPlaces[22]);
       }else if (mood == "Happy" && cuisine == "Spanish" && dietary == "Vegan" && price == "$$" && foodType =="Sandwich"){
-        $('#foodDecision').append(FoodPlaces[23]);
+        $('#foodDecision').html('<h1>' + "GrubDecide's Decision:" + '</h1>' + FoodPlaces[23]);
       }else if (mood == "Happy" && cuisine == "Spanish" && dietary == "Vegan" && price == "$$$" && foodType =="Sandwich"){
-        $('#foodDecision').append(FoodPlaces[24]);
+        $('#foodDecision').html('<h1>' + "GrubDecide's Decision:" + '</h1>' + FoodPlaces[24]);
       } else if (mood == "Happy" && cuisine == "Mediterranean" && dietary == "Vegan" && price == "$" && foodType =="Sandwich"){
-        $('#foodDecision').append(FoodPlaces[25]);
+        $('#foodDecision').html('<h1>' + "GrubDecide's Decision:" + '</h1>' + FoodPlaces[25]);
       }else if (mood == "Happy" && cuisine == "Mediterranean" && dietary == "Vegan" && price == "$$" && foodType =="Sandwich"){
-        $('#foodDecision').append(FoodPlaces[26]);
+        $('#foodDecision').html('<h1>' + "GrubDecide's Decision:" + '</h1>' + FoodPlaces[26]);
       }else if (mood == "Happy" && cuisine == "Mediterranean" && dietary == "Vegan" && price == "$$$" && foodType =="Sandwich"){
-        $('#foodDecision').append(FoodPlaces[27]);
-      };
+        $('#foodDecision').html('<h1>' + "GrubDecide's Decision:" + '</h1>' + FoodPlaces[26]);
+      }else if (mood == "Happy" && cuisine == "Japanese" && dietary == "Vegan" && price == "$" && foodType =="Sandwich"){
+        $('#foodDecision').html('<h1>' + "GrubDecide's Decision:" + '</h1>' + FoodPlaces[27]);
+      }else if (mood == "Happy" && cuisine == "Japanese" && dietary == "Vegan" && price == "$$" && foodType =="Sandwich"){
+        $('#foodDecision').html('<h1>' + "GrubDecide's Decision:" + '</h1>' + FoodPlaces[28]);
+      }else if (mood == "Sad" && cuisine == "American" && dietary == "Vegan" && price == "$$" && foodType =="Ice Cream"){
+        $('#foodDecision').html('<h1>' + "GrubDecide's Decision:" + '</h1>' + FoodPlaces[29]);
+      }else{
+         $('#foodDecision').html('<h1>' + "GrubDecide's Decision:" + '</h1>' + '<h2>' + "Choose again, please!" +'</h2>')
+      }
     
   });
 
-  $('#reload').click(function() {
-        location.reload();
-
-  });
- 	
 });
 
  	
