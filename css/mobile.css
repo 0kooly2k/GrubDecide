@@ -6,30 +6,33 @@
 	background-color:black;
 	color:red;
 	font-family: "Helvetica", sans-serif;
+	text-align: center;
 
 }
 
 #sectionWrap{
 	width: 300px;
-	height: 1500px;
+	height: 900px;
 	margin: 0 auto;
 	border: 1pt solid #000;
 }
 
 #mainContent{
-	width: 300px;
+	width: 200px;
 	height: 1500px;
-	margin: -5 auto;
-	font-size: 20pt;
+	margin: 5pt;
+	font-size: 10pt;
+	margin: 0 auto;
 }
 
 nav{
 	width: 300px;
+	margin: 0 auto;
 	
 	/*background-color:#888;*/
 	border: 1pt solid #000;
 	height: 100px;
-	/*text-align: center;*/
+	text-align: center;
 	background-color: #888;
 	color:red;
 }
@@ -52,6 +55,7 @@ a{
 
 #submit{
 	margin-left:-400px;
+	margin-top: -50px;
 }
 
 #wrapper{
@@ -69,4 +73,17 @@ height: 180px;
 margin-top: 100px;
 border-radius:20px; 
 margin-left: -235px;
+}
+
+body{
+	background-color:red;
+}
+
+.ui-button .ui-icon {
+	margin-right: -10px;
+}
+
+#submit{
+	margin-top: 0px;
+	display: inline-block;
 }

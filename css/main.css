@@ -24,10 +24,16 @@
 	width: 900px;
 	height: 1000px;
 	margin: 0 auto;
-	background-image: url('../images/paleo.jpg');
+	/*background-image: url('../images/paleo.jpg');*/
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
-	font-size: 20pt;
+	font-size: 15pt;
+	margin-top: 5px;
+}
+
+#mainContent p{
+	margin-top: 30px;
+	text-align: center;
 }
 
 fieldset {
@@ -149,9 +155,7 @@ border-radius:20px;
 	height:965px
 }
 
-#submit{
-	left:230px;
-}
+
 
 nav{
 	width: 960px;

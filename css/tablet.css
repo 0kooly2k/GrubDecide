@@ -12,16 +12,17 @@
 
 #sectionWrap{
 	width: 700px;
-	height: 1500px;
+	height: 1000px;
 	margin: 0 auto;
 	border: 1pt solid #000;
 }
 
 #mainContent{
 	width: 700px;
-	height: 1500px;
-	margin: -5 auto;
-	font-size: 20pt;
+	height: 1000px;
+	
+	font-size: 15pt;
+	margin: 0 auto;
 }
 
 nav{
@@ -79,4 +80,8 @@ margin-left: -50px;
 	left:500px;
 	top:85px;
 
+}
+
+body{
+	background-color:red;
 }
