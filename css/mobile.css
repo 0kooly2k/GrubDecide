@@ -1,0 +1,72 @@
+#banner{
+	width: 300px;
+	margin: 0 auto;
+	height: 80px;
+	border: 1pt solid #000;
+	background-color:black;
+	color:red;
+	font-family: "Helvetica", sans-serif;
+
+}
+
+#sectionWrap{
+	width: 300px;
+	height: 1500px;
+	margin: 0 auto;
+	border: 1pt solid #000;
+}
+
+#mainContent{
+	width: 300px;
+	height: 1500px;
+	margin: -5 auto;
+	font-size: 20pt;
+}
+
+nav{
+	width: 300px;
+	
+	/*background-color:#888;*/
+	border: 1pt solid #000;
+	height: 100px;
+	/*text-align: center;*/
+	background-color: #888;
+	color:red;
+}
+
+li{
+	list-style: none;
+	display: block;
+	margin: 0;
+	width: 200px;
+
+
+}
+
+a{
+	text-decoration: none;
+	font-size: 20px;
+	
+
+}
+
+#submit{
+	margin-left:-400px;
+}
+
+#wrapper{
+	width: 500px;
+	margin-left: 260px;
+
+}
+#foodDecision{
+width:200px;
+font-size: 10px;
+border: 1pt solid #000;
+background-color: white;
+text-align: center;
+height: 180px;
+margin-top: 100px;
+border-radius:20px; 
+margin-left: -235px;
+}
